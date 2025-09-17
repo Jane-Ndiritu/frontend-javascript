@@ -1,22 +1,22 @@
-interface student {
+interface Student {
   firstName: string;
   lastName: string;
   age: number;
   location: string;
 }
-const student1: student = {
+const student1: Student = {
     firstName: "Jane",
     lastName: "Ndiritu",
     age: 20,
     location: "Nairobi"
 };
-const student2: student = {
+const student2: Student = {
     firstName: "John",
     lastName: "Ndegwa",
     age: 22,
     location: "Mombasa"
 };
-const studentsList: student[] = [student1, student2];
+const studentsList: Student[] = [student1, student2];
 // 4. Render a table in the DOM using Vanilla JS
 const table = document.createElement("table");
 table.border = "1";
